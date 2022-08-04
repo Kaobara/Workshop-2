@@ -7,6 +7,7 @@ Shader "Unlit/VertexColorShader"
 		Pass
 		{
 			// Cull Off
+			Cull Front
 
 			CGPROGRAM
 			#pragma vertex vert
